@@ -34,6 +34,18 @@ public class arithmatic_operations {
         arithmatic_operations obj = new arithmatic_operations() ;
         System.out.println("c+s = "+obj.res1+'\n'+"d + f = "+obj.res2+'\n'+"f + l = "+obj.res3);
 
+        /*
+         
+        understanding post and pre increment... 
+        
+         */
+
+         int pre,post,x = 5;
+         pre=++x;
+         x = 5;
+         post=x++;
+        System.out.println(" x (before) : "+5+" pre: "+pre+" post: "+post+" x (after) : "+x);
+
     }
 
 }
