@@ -46,6 +46,9 @@ public class arithmatic_operations {
          post=x++;
         System.out.println(" x (before) : "+5+" pre: "+pre+" post: "+post+" x (after) : "+x);
 
+        int xc=6,yc=8;
+        System.out.print("5*++xc+4*yc++ = ");
+        System.out.println(5*++xc+4*yc++);
     }
 
 }
