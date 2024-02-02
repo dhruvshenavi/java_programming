@@ -65,6 +65,23 @@ public class arithmatic_operations {
         System.out.println(xi|xj);
         System.out.print("xi ^ xj = ");
         System.out.println(xi^xj);
+
+
+        /*
+          
+        left shift << right shift >> 
+
+         */
+
+        int xs=12;
+        System.out.println("left shift:");
+        System.out.print("x :"+xs+" ");
+        System.out.println(xs<<1);
+        System.out.println("right shift:");
+        System.out.print("x :"+xs+" ");
+        System.out.println(xs>>1);
+
+
     }
 
 }
