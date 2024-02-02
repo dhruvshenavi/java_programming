@@ -87,8 +87,29 @@ public class arithmatic_operations {
         ~ negation  
         
          */
+
         int xn = 7;
-         System.out.println( "negation of 7 :" + Integer.toBinaryString(~ xn) +'\n'+ ~xn );
+        System.out.println( "negation of 7 :" + Integer.toBinaryString(~ xn) +'\n'+ ~xn );
+        
+        /*
+         MASKING-AND SWAPPING-XOR MERGING-OR
+         */
+
+        int xum = 10;
+        int yum = 2;
+        System.out.println(" x :" + Integer.toBinaryString(xum) + " y :" + Integer.toBinaryString(yum) + " res :" + Integer.toBinaryString(xum&yum));
+        System.out.println(" x :" + Integer.toBinaryString(xum) + " y :" + Integer.toBinaryString(yum) + " res :" + Integer.toBinaryString(xum|yum));
+
+       // SWAPPING
+
+       int xs1=1;
+       int xs2=3;
+       System.out.println("initially x:"+xs1+" y:"+xs2);
+       xs1=xs1^xs2;
+       xs2=xs1^xs2;
+       xs1=xs1^xs2;
+       System.out.println("finally x:"+xs1+" y:"+xs2);
+
 
     }
 
