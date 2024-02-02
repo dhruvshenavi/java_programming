@@ -20,8 +20,20 @@ public class arithmatic_operations {
     long l = 78;
     short s = 4;
 
-    int res1 = c + s;
-    double res2 = d + f;
-    float res3 = f + l;
+    public int res1 = c + s;
+    public double res2 = d + f;
+    public float res3 = f + l;
+
+    /*public arithmatic_operations(){
+
+
+    }*/
+
+    public static void main(String[] args) {
+        
+        arithmatic_operations obj = new arithmatic_operations() ;
+        System.out.println("c+s = "+obj.res1+'\n'+"d + f = "+obj.res2+'\n'+"f + l = "+obj.res3);
+
+    }
 
 }
