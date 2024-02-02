@@ -82,6 +82,14 @@ public class arithmatic_operations {
         System.out.println(xs>>1);
 
 
+        /*
+         
+        ~ negation  
+        
+         */
+        int xn = 7;
+         System.out.println( "negation of 7 :" + Integer.toBinaryString(~ xn) +'\n'+ ~xn );
+
     }
 
 }
