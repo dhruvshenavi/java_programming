@@ -49,6 +49,22 @@ public class arithmatic_operations {
         int xc=6,yc=8;
         System.out.print("5*++xc+4*yc++ = ");
         System.out.println(5*++xc+4*yc++);
+
+        /*
+         understanding bitwise operations...
+         & - and
+         ^ - exor
+         | - or
+         */
+
+        int xi=1,xj=4;
+        int j = xi&xj;
+        System.out.print("xi & xj = ");
+        System.out.println(j);
+        System.out.print("xi | xj = ");
+        System.out.println(xi|xj);
+        System.out.print("xi ^ xj = ");
+        System.out.println(xi^xj);
     }
 
 }
